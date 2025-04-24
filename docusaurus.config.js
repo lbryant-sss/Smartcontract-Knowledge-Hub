@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -13,21 +13,18 @@ const config = {
   title: 'Smart Contract Security',
   tagline: 'Knowledge Hub',
   favicon: 'img/favicon.ico',
-url: 'https://lbryant-sss.github.io',
-baseUrl: '/mungai/',
-organizationName: 'lbrant-sss',
-projectName: 'Smartcontract-Knowledge-Hub',
+  url: 'https://lbryant-sss.github.io',
   // Set the production url of your site here
-//  url: 'https://your-docusaurus-site.example.com',
+  //  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/mungai/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'lbryant-sss', // Usually your GitHub org/user name.
+  projectName: 'Smartcontract-Knowledge-Hub', // Usually your repo name.
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -48,8 +45,8 @@ projectName: 'Smartcontract-Knowledge-Hub',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -59,8 +56,8 @@ projectName: 'Smartcontract-Knowledge-Hub',
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -79,7 +76,7 @@ projectName: 'Smartcontract-Knowledge-Hub',
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Smart Contract Security',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -91,9 +88,9 @@ projectName: 'Smartcontract-Knowledge-Hub',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: '/docs',
             label: 'GitHub',
             position: 'right',
           },
