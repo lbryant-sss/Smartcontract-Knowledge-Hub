@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmungai=self.webpackChunkmungai||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/Smartcontract-Knowledge-Hub/blog","blogTitle":"Blog","authorsListPath":"/Smartcontract-Knowledge-Hub/blog/authors"}')}}]);
